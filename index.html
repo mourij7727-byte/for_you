@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff5f8" />
+  <meta name="color-scheme" content="light" />
+  <meta name="description" content="A little birthday surprise made with love." />
+  <title>For My Ammu ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <!-- Soft animated Mumu & Dudu-inspired panda watermark, visible across every screen -->
+  <div class="romance-watermark" aria-hidden="true">
+    <div class="panda-couple watermark-couple">
+      <div class="panda panda-mumu"><i class="ear left"></i><i class="ear right"></i><i class="face"><b class="eye left"></b><b class="eye right"></b><b class="blush left"></b><b class="blush right"></b><b class="nose"></b><b class="smile"></b></i><i class="body"></i><i class="paw"></i></div>
+      <span class="couple-heart">♥</span>
+      <div class="panda panda-dudu"><i class="ear left"></i><i class="ear right"></i><i class="face"><b class="eye left"></b><b class="eye right"></b><b class="blush left"></b><b class="blush right"></b><b class="nose"></b><b class="smile"></b></i><i class="body"></i><i class="paw"></i><span class="panda-bow">🎀</span></div>
+    </div>
+    <span class="watermark-sparkle">♥　✦　♥</span>
+  </div>
+  <div id="hearts" class="hearts" aria-hidden="true"></div>
+  <div class="journey-progress" aria-hidden="true"><span id="journeyProgressBar"></span></div>
+  <p class="screen-counter" id="screenCounter" aria-live="polite">Surprise 1 of 6</p>
+
+  <audio id="birthdayMusic" loop preload="none">
+    <source src="assets/music/tamil-love-melody.mp3" type="audio/mpeg" />
+  </audio>
+
+  <main>
+    <!-- SCREEN 1: Gift box -->
+    <section id="giftScreen" class="screen active gift-screen">
+      <div class="panda-couple" aria-label="Cute Mumu and Dudu inspired panda couple" role="img">
+        <div class="panda panda-mumu"><i class="ear left"></i><i class="ear right"></i><i class="face"><b class="eye left"></b><b class="eye right"></b><b class="blush left"></b><b class="blush right"></b><b class="nose"></b><b class="smile"></b></i><i class="body"></i><i class="paw"></i></div>
+        <span class="couple-heart">♥</span>
+        <div class="panda panda-dudu"><i class="ear left"></i><i class="ear right"></i><i class="face"><b class="eye left"></b><b class="eye right"></b><b class="blush left"></b><b class="blush right"></b><b class="nose"></b><b class="smile"></b></i><i class="body"></i><i class="paw"></i><span class="panda-bow">🎀</span></div>
+      </div>
+      <p class="panda-caption">Two little pandas, one big love 🐼💕</p>
+      <p class="eyebrow">A LITTLE SURPRISE, MADE WITH LOVE</p>
+      <h1 class="script-title">Just for you, <span>my Ammu</span> ❤️</h1>
+      <p class="intro">There is a little piece of my heart waiting inside this gift.</p>
+      <button id="giftButton" class="gift-button" aria-label="Open your birthday gift">
+        <span class="gift-lid"><span class="bow">🎀</span></span>
+        <span class="gift-box"><span class="gift-ribbon"></span></span>
+        <span class="gift-tag">For you ♡</span>
+      </button>
+      <button id="openGift" class="pill-button">Touch to open your gift <span>♡</span></button>
+      <p class="tiny-note">Take a deep breath… this is made just for you.</p>
+    </section>
+
+    <!-- SCREEN 2: Welcome -->
+    <section id="welcomeScreen" class="screen">
+      <p class="eyebrow">TODAY IS ALL ABOUT YOU</p>
+      <div class="mini-panda-sticker" aria-hidden="true">🐼 <span>💗</span> 🐼</div>
+      <h1 class="script-title big">Happy Birthday,<br /><span>My Love</span> ❤️</h1>
+      <p class="message">This isn't just a website…<br />It's a little piece of my heart,<br />made only for you.</p>
+      <p class="message soft">Ready for your little surprise, Ammu?</p>
+      <button class="pill-button" data-next="letterScreen">Open your letter 💌</button>
+    </section>
+
+    <!-- SCREEN 3: Love letter -->
+    <section id="letterScreen" class="screen letter-screen">
+      <p class="eyebrow">A LETTER FROM MY HEART</p>
+      <article class="letter-card">
+        <div class="letter-decoration">♥</div>
+        <h2>Happy Birthday, En Chella Mama! 🎂❤️</h2>
+        <p>Innaikku un special day, ma! Un life-la nee eppovume happy-ah irukkanum. Un face-la irukkura andha smile eppovume irukkanum. Edhukkagavum romba feel pannadha, chellam. Life-la sila days nalla irukkum, sila days konjam difficult-ah irukkum. Aana edhu nadandhaalum nee un mela irukkura confidence-ai mattum lose pannidadha. Nee romba precious, ma. ❤️</p>
+        <p>Un Amma-Appa-va eppovume nalla paathukko. Avangalukku nee oru periya happiness-ah irukkanum. Un health-aiyum nalla paathukko. Bike-la fast-ah pogadha, chellam! 🥺❤️ Nee safe-ah irukkanum. Unakku edhuvum aaga koodadhunu naan eppovume wish pannuven.</p>
+        <h3>👑 My Prince, My Precious One!</h3>
+        <p>Mama, nee en life-kulla vandhadhu oru unexpected surprise. Aana nee vandhadhukku appuram, nee enakku evlo precious-nu enakke purinjiduchu. 🥹❤️</p>
+        <p>Nee en world-oda king 👑, naan un queen! Aana en heart-ku nee eppovume <strong>my little prince</strong> dhaan. ❤️🫂</p>
+        <p>Unna en life-la meet pannadhu enakku romba special. Un kooda pesura chinna chinna moments, namma share panra feelings, namma sirikkura moments — idhellame enakku precious memories.</p>
+        <p>Unna pathi yosikkumbodhu, un future nalla irukkanum, nee happy-ah irukkanum, nee nenachadhellam achieve pannanum-nu dhaan enakku thonum. 💗</p>
+        <h3>🌍 Your Dreams Are My Wishes Too!</h3>
+        <p>En chellam, life-la nee nenacha ella dreams-aiyum achieve pannanum. Nee unakkaga oru beautiful future create pannanum. Unakku pidicha life-ai nee vaazhanum.</p>
+        <p>Un dreams perusa irundhaalum bayapadadha. Edhavadhu difficult-ah irundhaalum try pannuradha niruthidadha. Nee un mela nambikkai vechikko, Mama! ❤️</p>
+        <p>Unakku mudinja ella help-um naan un kooda irundhu pannuven.</p>
+        <p><strong>Always, I'm there for you, my chellam.</strong> 🫂❤️</p>
+        <p>Nee happy-ah irukkumbodhu un happiness-ai celebrate panna naan iruppen. Nee sad-ah irukkumbodhu un feelings-ai share panna oru person-ah naan irukka virumburen.</p>
+        <p>Edhuva irundhaalum en kitta share pannu, ma. Unna judge pannaama, un feelings-ai purinjikka try pannuven. Un problem-ku solution theda un kooda serndhu yosippen.</p>
+        <p>Nee eppovume ellathayum thaniya handle pannanum-nu avasiyam illa, chellam. Unakku support thevaippadumbodhu naan un pakkathula irukka virumburen. ❤️🫂</p>
+        <h3>💗 You Are My Favourite Surprise!</h3>
+        <p>Mama, unakku theriyuma?</p>
+        <p><strong>You came into my life as a surprise, but you became one of my most precious people.</strong> 🥹❤️</p>
+        <p>Un presence enakku special. Un happiness enakku important. Un dreams enakku important. Nee nee-yave irukkuradhu enakku romba pidikkum.</p>
+        <p>Nee perfect-ah irukkanumnu naan expect pannala, ma. Nee unmaiya irukkanum, happy-ah irukkanum, un dreams-kaga effort podanum. Namma rendu perum orutharukku oruthar support-ah irundhu, nalla memories create pannanum. 💌</p>
+        <p>Un birthday-la naan unakku gift panradhu indha chinna website mattum illa.</p>
+        <p><strong>Idhula irukkura ovvoru word-um, ovvoru page-um, ovvoru little surprise-um unakkaga naan spend panna feelings-oda oru part.</strong> 🎁❤️</p>
+        <p>Nee indha website-ai open pannumbodhu smile pannanum. Indha letter-ai padikkumbodhu nee evlo special-nu unakku puriyanum. Adhudhaan enakku romba mukkiyam, Mama! 🥹💗</p>
+        <p class="signature">With all my love,<br /><strong>Your Papu ❤️</strong></p>
+      </article>
+      <button class="pill-button" data-next="memoriesScreen">Our little world 📸</button>
+    </section>
+
+    <!-- SCREEN 4: Memories -->
+    <section id="memoriesScreen" class="screen">
+      <p class="eyebrow">OUR LITTLE WORLD</p>
+      <div class="mini-panda-sticker" aria-hidden="true">🐼 <span>🌸</span> 🐼</div>
+      <h1 class="script-title">Our memories <span>♡</span></h1>
+      <p class="message">Every moment with you is a treasure.</p>
+      <div class="journey-card">
+        <h2>Our Love Journey ❤️</h2>
+        <p class="journey-start">24 April 2020 — the beginning of our story</p>
+        <div class="journey-line">
+          <div class="journey-event"><span class="journey-dot">♥</span><div><strong>24 April 2020</strong><p>The day our love story began. A little beginning that became a precious part of my life. ❤️</p></div></div>
+          <div class="journey-event"><span class="journey-dot">♡</span><div><strong>2021–2022 · Growing together</strong><p>Every conversation, smile, and little moment became a memory I want to keep close. 💕</p></div></div>
+          <div class="journey-event"><span class="journey-dot">∞</span><div><strong>2023–2024 · Our bond</strong><p>Learning, growing, and supporting each other through different days. I hope we always keep choosing kindness and understanding. 🫶</p></div></div>
+          <div class="journey-event"><span class="journey-dot">💗</span><div><strong>2025 · More memories</strong><p>More moments to remember, more reasons to smile, and more dreams to cheer each other on. ❤️</p></div></div>
+          <div class="journey-event"><span class="journey-dot">✨</span><div><strong>2026 · Six years of our story</strong><p>From 24 April 2020 until today, this journey means so much to me. Here’s to many more happy memories and dreams ahead. Always stay safe and keep smiling, Mama. ❤️</p></div></div>
+        </div>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card"><img src="assets/photos/memory1.jpg" alt="Hands held together" /><figcaption>Hand in hand, heart to heart ♡</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photos/memory2.jpg" alt="A photo of us together" /><figcaption>A special day together ❤️</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photos/memory3.jpg" alt="A close-up photo together" /><figcaption>Your face, my favourite memory ♡</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photos/memory4.jpg" alt="A smiling memory together" /><figcaption>One more memory to treasure 💕</figcaption></figure>
+      </div>
+      <button class="pill-button" data-next="birthdayScreen">One more surprise 🎂</button>
+    </section>
+
+    <!-- SCREEN 5: Birthday celebration -->
+    <section id="birthdayScreen" class="screen birthday-screen">
+      <p class="eyebrow">MAKE A WISH, MY LOVE</p>
+      <h1 class="script-title big">Happy Birthday,<br /><span>Ammu!</span> 🎂</h1>
+      <div class="cake" aria-label="Birthday cake with candles">
+        <div class="candles"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="cake-top"></div><div class="cake-middle"></div><div class="cake-bottom"></div>
+      </div>
+      <p class="message">May this new year bring you peace, happiness, big dreams, and so many reasons to smile.</p>
+      <button id="celebrateButton" class="pill-button">Celebrate! ✨</button>
+      <button class="text-button" data-next="finalScreen">Read my last message →</button>
+    </section>
+
+    <!-- SCREEN 6: Final message -->
+    <section id="finalScreen" class="screen final-screen">
+      <p class="eyebrow">ONE LAST THING…</p>
+      <div class="heart-outline">♥</div>
+      <h1 class="script-title">You mean so much <span>to me</span> ❤️</h1>
+      <p class="message">I hope this little surprise reminds you that you are appreciated more than you know. I’m wishing you a beautiful birthday today and a year full of good things.</p>
+      <p class="message">Thank you for being part of my world.</p>
+      <p class="signature">Forever sending you love,<br /><strong>Your Papu 💌</strong></p>
+      <button id="replayButton" class="pill-button">Watch the surprise again ↻</button>
+      <p class="tiny-note">Made with love, especially for you.</p>
+    </section>
+  </main>
+  <aside class="share-qr" aria-label="Share this birthday page" hidden>
+    <div id="shareQrCode" class="share-qr-code" role="img" aria-label="QR code for this page"></div>
+    <span id="shareQrLabel" class="share-qr-label" aria-live="polite">Preparing QR code...</span>
+  </aside>
+
+  <nav class="music-control" aria-label="Music controls">
+    <button id="musicButton" class="music-button" aria-pressed="false">♫ Play melody</button>
+    <span class="music-hint">Tap to play Tamil love melody BGM</span>
+  </nav>
+
+  <div id="photoLightbox" class="photo-lightbox" role="dialog" aria-modal="true" aria-label="Memory photo" hidden>
+    <button id="closeLightbox" class="lightbox-close" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="" />
+    <p id="lightboxCaption"></p>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
